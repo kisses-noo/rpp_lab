@@ -18,7 +18,7 @@ def get_number():
     try:
         param = float(param)
     except ValueError:
-        return jsonify({'error': 'The entered parameter is not a number'}), 400
+        return jsonify({'error': 'The entered parameter is not a number'}), 200
     
     # Генерируем случайное число и умножаем на параметр
     random_num = random.uniform(1, 10)
