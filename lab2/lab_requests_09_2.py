@@ -2,7 +2,7 @@ import requests
 import random
 
 # 1. GET запрос с параметром param
-param = "oehrgourtw"
+param = random.uniform(1, 10)
 get_response = requests.get(f'http://localhost:5000/number/?param={param}')
 get_data = get_response.json()
 print(f"GET response: {get_data}")
