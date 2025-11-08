@@ -5,12 +5,9 @@
 try:
     num1 = float(input("Введите первое число: "))
     num2 = float(input("Введите второе число: "))
-    num3 = float(input("Введите третье число: "))
 
     # Находим минимальное число.
-    min_num = min(num1, num2, num3)
+    min_num = min(num1, num2)
 
     # Выводим результат.
     print(f"Минимальное число: {min_num}")
-except ValueError:
-    print("Ошибка ввода. Вы ввели не корректное число")
