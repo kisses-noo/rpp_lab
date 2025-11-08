@@ -15,5 +15,5 @@ for i in range(3):
 if valid_numbers:
     print("Числа в интервале [1, 50]:", valid_numbers)
 else:
-    print("Нет чисел в интервал [1, 50].")
+    print("Нет чисел в интервале [1, 50].")
 
